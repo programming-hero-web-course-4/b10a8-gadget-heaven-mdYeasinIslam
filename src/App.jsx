@@ -1,12 +1,13 @@
 
 import './App.css'
+import Root from './Root/Root'
 
 function App() {
 
   return (
-    <>
-      <h1>Basic setup complete</h1>
-    </>
+    <div className='font-["sora",serif]'>
+<Root/>
+    </div>
   )
 }
 

@@ -1,0 +1,291 @@
+[
+    {
+        "id": "1",
+        "product_id": "M001",
+        "product_title": "Android Smartphone A1",
+        "product_image": "https://i.ibb.co.com/BndbwqK/A18-5-Inch-Android-Smartphone-HD-Face-Global-Version-Mobile-Phone.webp",
+        "category": "Mobile",
+        "price": 299.99,
+        "description": "Affordable Android smartphone with a 6.5-inch display and 5000mAh battery.",
+        "Specification": [
+            "6.5-inch HD+ display",
+            "4GB RAM",
+            "64GB storage",
+            "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "id": "2",
+        "product_id": "M002",
+        "product_title": "Oppo A95",
+        "product_image": "https://i.ibb.co.com/g4WQtxD/photorealistic-mobile-mockup-realistic-app-ui-showcases-483861-156136.jpg",
+        "category": "Mobile",
+        "price": 899.99,
+        "description": "Latest iPhone model with enhanced performance and improved camera.",
+        "Specification": [
+            "6.1-inch OLED display",
+            "128GB storage",
+            "A15 Bionic chip",
+            "Dual-camera system"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "id": "3",
+        "product_id": "M003",
+        "product_title": "Samsung Galaxy S23",
+        "product_image": "https://i.ibb.co.com/0fHtYnf/images-q-tbn-ANd9-Gc-Sje0n-Wl-MI8g6-INHOc-I7qkyuur9-X8hp-Wqi6a-A6l-Sc-xp-KN6ru-Oxp8-Lc-L21-J50ot-KM7.jpg",
+        "category": "Mobile",
+        "price": 749.99,
+        "description": "High-end Android smartphone with stunning display and powerful camera.",
+        "Specification": [
+            "6.4-inch AMOLED display",
+            "8GB RAM",
+            "256GB storage",
+            "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "id": "4",
+        "product_id": "M004",
+        "product_title": "OnePlus Nord CE 2",
+        "product_image": "https://i.ibb.co.com/V3qT8hd/images-q-tbn-ANd9-Gc-Rd-Jsi-Jtk-ZSR8m-F9-JVBef-Kbf-GFZIj-IKfb-Agk-Vox-EJRB08-EYFNm-Ui-Fc-Fcon-Uux4x.jpg",
+        "category": "Mobile",
+        "price": 399.99,
+        "description": "Mid-range smartphone with smooth performance and fast charging.",
+        "Specification": [
+            "6.43-inch FHD+ display",
+            "6GB RAM",
+            "128GB storage",
+            "4500mAh battery with fast charging"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "id": "5",
+        "product_id": "M005",
+        "product_title": "Google Pixel 7",
+        "product_image": "https://i.ibb.co.com/Jv0H4VC/images-q-tbn-ANd9-Gc-Qqq-Rq-Wr-S4c-Pw9-Ertk-S2-OBK89-Hr-Jlefs-QOE4-OAEX96o0-I3g-Mt2-Uq-WT15-Wyi-Fz-Z.jpg",
+        "category": "Mobile",
+        "price": 599.99,
+        "description": "Google's flagship smartphone with a powerful camera and clean Android experience.",
+        "Specification": [
+            "6.3-inch OLED display",
+            "8GB RAM",
+            "128GB storage",
+            "Dual rear cameras"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "id": "6",
+        "product_id": "L001",
+        "product_title": "Gaming Laptop X15",
+        "product_image": "https://i.ibb.co.com/ydYBBfH/laptop-33521-640.png",
+        "category": "Laptop",
+        "price": 1299.99,
+        "description": "High-performance gaming laptop with powerful graphics and fast processor.",
+        "Specification": [
+            "Intel i7 processor",
+            "16GB RAM",
+            "512GB SSD",
+            "RTX 3060 GPU"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "id": "7",
+        "product_id": "L002",
+        "product_title": "Ultrabook Pro 14",
+        "product_image": "https://i.ibb.co.com/wrsQLGH/lovepik-laptop-and-mobile-phone-on-desktop-png-image-400636528-wh1200.png",
+        "category": "Laptop",
+        "price": 1099.99,
+        "description": "Slim and lightweight laptop with long battery life and vibrant display.",
+        "Specification": [
+            "Intel i5 processor",
+            "8GB RAM",
+            "256GB SSD",
+            "14-inch FHD display"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "id": "8",
+        "product_id": "L003",
+        "product_title": "2-in-1 Convertible Laptop",
+        "product_image": "https://i.ibb.co.com/w4wP1mC/images-q-tbn-ANd9-Gc-Tjc-Htltb-Ya4-VXr-QIp9-Gm4-Byfi-KKU4bdc-Qd-SQ-s.jpg",
+        "category": "Laptop",
+        "price": 799.99,
+        "description": "Versatile 2-in-1 laptop with touchscreen and stylus support.",
+        "Specification": [
+            "Intel i5 processor",
+            "8GB RAM",
+            "128GB SSD",
+            "Touchscreen"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "id": "9",
+        "product_id": "L004",
+        "product_title": "MacBook Air M1",
+        "product_image": "https://i.ibb.co.com/ZgG1XKN/air13teaser-480x480.jpg",
+        "category": "MacDevice",
+        "price": 999.99,
+        "description": "Apple's ultra-light laptop with the efficient M1 chip and long battery life.",
+        "Specification": [
+            "Apple M1 chip",
+            "8GB RAM",
+            "256GB SSD",
+            "Retina display"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "id": "10",
+        "product_id": "L005",
+        "product_title": "MacBook Pro 16-inch",
+        "product_image": "https://i.ibb.co.com/6HjGbpR/photo-1491472253230-a044054ca35f-fm-jpg-q-60-w-3000-ixlib-rb-4-0.jpg",
+        "category": "MacDevice",
+        "price": 2399.99,
+        "description": "Powerful MacBook Pro with M1 Pro chip for professional work.",
+        "Specification": [
+            "Apple M1 Pro chip",
+            "16GB RAM",
+            "512GB SSD",
+            "16-inch Liquid Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "id": "11",
+        "product_id": "L006",
+        "product_title": "Mac Mini M2",
+        "product_image": "https://i.ibb.co.com/6WnH1XL/mw-480002p-3.jpg",
+        "category": "MacDevice",
+        "price": 699.99,
+        "description": "Compact desktop computer with the latest M2 chip.",
+        "Specification": [
+            "Apple M2 chip",
+            "8GB RAM",
+            "256GB SSD",
+            "Supports 6K display"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "id": "12",
+        "product_id": "I001",
+        "product_title": "iPhone 13 Mini",
+        "product_image": "https://i.ibb.co.com/gyLGkgQ/iphone-card-40-iphone16prohero-202409-FMT-WHH-wid-508-hei-472-fmt-p-jpg-qlt-95.jpg",
+        "category": "iPhone",
+        "price": 699.99,
+        "description": "Compact iPhone model with powerful features in a smaller form factor.",
+        "Specification": [
+            "5.4-inch Super Retina display",
+            "128GB storage",
+            "A15 Bionic chip",
+            "Dual-camera system"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "id": "13",
+        "product_id": "I002",
+        "product_title": "iPhone 12",
+        "product_image": "https://i.ibb.co.com/pJt0TBT/images-q-tbn-ANd9-Gc-QBQL-z-NRz-XIh-Vz-MB4-4-YMf35a87-X-wqj2i-VGAAa8-ZT5d2-KNTqqy-LHYhz-XAOv-Bef-Xtv.jpg",
+        "category": "iPhone",
+        "price": 599.99,
+        "description": "Popular iPhone model with powerful performance and durable design.",
+        "Specification": [
+            "6.1-inch OLED display",
+            "64GB storage",
+            "A14 Bionic chip",
+            "Dual-camera system"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "id": "14",
+        "product_id": "A001",
+        "product_title": "Wireless Earbuds",
+        "product_image": "https://i.ibb.co.com/74K9Jvk/Noise-Buds-R1-Truly-Wireless-Earbuds-1.png",
+        "category": "Accessories",
+        "price": 49.99,
+        "description": "True wireless earbuds with high-quality sound and noise cancellation.",
+        "Specification": [
+            "Bluetooth 5.2",
+            "Noise cancellation",
+            "24 hours battery life",
+            "Touch controls"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "id": "15",
+        "product_id": "A002",
+        "product_title": "Portable Charger 20000mAh",
+        "product_image": "https://i.ibb.co.com/5GCvQ6D/images-q-tbn-ANd9-Gc-TKAFS5-BGXSUesj-RNme8z-EBc-WP1009ecvs-OLw-s.jpg",
+        "category": "Accessories",
+        "price": 29.99,
+        "description": "High-capacity portable charger with multiple ports for fast charging.",
+        "Specification": [
+            "20000mAh capacity",
+            "USB-C and USB-A ports",
+            "Fast charging",
+            "LED battery indicator"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "id": "16",
+        "product_id": "A003",
+        "product_title": "Wireless Charger Pad",
+        "product_image": "https://i.ibb.co.com/zQxwgLY/images-q-tbn-ANd9-Gc-T1-Ej-Ob-G-s-YWbwbx-GBj-WV0-Dh-KHFRH2-Oi-DY8-Uw-s.jpg",
+        "category": "Accessories",
+        "price": 19.99,
+        "description": "Qi-certified wireless charger compatible with most smartphones.",
+        "Specification": [
+            "Fast wireless charging",
+            "Non-slip design",
+            "LED indicator",
+            "Universal compatibility"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "id": "17",
+        "product_id": "A004",
+        "product_title": "Bluetooth Keyboard",
+        "product_image": "https://i.ibb.co.com/ncc86FY/Logitech-K480-Bluetooth-Multidevice-Keyboard-0a650ffff9c34105a4206384507c7ba6.jpg",
+        "category": "Accessories",
+        "price": 34.99,
+        "description": "Compact and lightweight Bluetooth keyboard for tablets and laptops.",
+        "Specification": [
+            "Bluetooth 5.0",
+            "Compact design",
+            "Rechargeable battery",
+            "Compatible with multiple devices"
+        ],
+        "availability": true,
+        "rating": 4.2
+    }
+]
