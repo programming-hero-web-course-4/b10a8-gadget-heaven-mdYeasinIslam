@@ -1,19 +1,26 @@
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
-
+import './Navbar.css'
+import { useContext } from "react";
+import { NavbarContext } from "../../Context/ContextProvider";
 const Navbar = () => {
+    const { setShowNav } = useContext(NavbarContext)
 
-    const manuIcons =<>
-    <NavLink to={`/home`}>Home</NavLink>
-        <NavLink to={`/statistics`}>Statistics</NavLink>
-        <NavLink to={`/dashboard`}>Dashboard</NavLink>
+    const handleNavColor = () => {
+        setShowNav(false)
+    }
+
+    const manuIcons = <>
+        <NavLink onClick={() => setShowNav(true)} to={`/home`}>Home</NavLink>
+        <NavLink onClick={handleNavColor} to={`/statistics`}>Statistics</NavLink>
+        <NavLink onClick={handleNavColor} to={`/dashboard`}>Dashboard</NavLink>
     </>
     return (
-        <div className="navbar px-5 mt-3">
+        <div className="navbar max-w-7xl mx-auto pt-3">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -29,24 +36,24 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                       {manuIcons}
+                        className="manuIcon menu menu-sm dropdown-content bg-base-100  space-y-5 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        {manuIcons}
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl ">Gadget Heaven</a>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 gap-10 font-medium text-[1rem]">
-                   {manuIcons}
+            <div className="navbar-center hidden md:flex">
+                <ul className="manuIcon menu menu-horizontal px-1 gap-5  lg:gap-10 font-medium text-[1rem]">
+                    {manuIcons}
                 </ul>
             </div>
             <div className="navbar-end gap-3">
-                <div className="tooltip tooltip-open tooltip-top tooltip-primary "  data-tip="1">
+                <div className="tooltip tooltip-open tooltip-top tooltip-primary " data-tip="1">
                     <MdOutlineShoppingCart className="w-6 h-6" />
                 </div>
-              
+
                 <FaRegHeart className="w-5 h-5" />
-            </div>
+            </div> 
         </div>
     );
 };

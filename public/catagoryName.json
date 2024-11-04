@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "category_name":"All Products"
+    },
+    {
+        "id":2,
+        "category_name":"Laptop"
+    },
+    {
+        "id":3,
+        "category_name":"Mobile"
+    },
+    {
+        "id":4,
+        "category_name":"iPhone"
+    },
+    {
+        "id":5,
+        "category_name":"MacDevice"
+    },
+    
+    {
+        "id":6,
+        "category_name":"Accessories"
+    },
+    {
+        "id":7,
+        "category_name":"Smart Watch"
+    }
+    
+]
