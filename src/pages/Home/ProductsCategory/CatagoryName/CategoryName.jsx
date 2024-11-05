@@ -1,10 +1,10 @@
 import axios from "axios";
 import { useContext, useEffect, useState } from "react";
-import { CategoryWiseShow } from "../../../../Context/ContextProvider";
+import { CategoryContext } from "../../../../Context/ContextProvider";
  
 const CategoryName = () => {
     const [categories,setCategories] = useState([])
-    const { getCategoryName } = useContext(CategoryWiseShow)
+    const { getCategoryName } = useContext(CategoryContext)
     const [isActive,setIsActive] = useState(1)
     useEffect(()=>{
         axios.get('catagoryName.json')

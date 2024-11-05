@@ -1,12 +1,14 @@
 
 import './App.css'
 import Root from './Root/Root'
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
 
   return (
     <div className='font-["sora",serif]'>
-<Root/>
+      <Root />
+      <ToastContainer position="top-right" />
     </div>
   )
 }

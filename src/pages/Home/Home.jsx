@@ -1,3 +1,4 @@
+import { useLocation } from "react-router-dom/dist";
 import Banner from "./banner/Banner";
 import CommonHeading from "./CommonHeading/CommonHeading";
 import AllProducts from "./ProductsCategory/AllProducts/AllProducts";
@@ -7,8 +8,10 @@ const Home = () => {
     const byText = <div className="text-3xl font-semibold text-center">
         Explore Cutting-Edge Gadgets
     </div>
+    const location = useLocation()
+    console.log(location)
     return (
-        <div className="w-full">
+        <div className="w-full max-w-7xl mx-auto">
             <div className=" h-[40rem] md:h-[53rem] lg:h-[60rem] ">
                 <Banner />
             </div>

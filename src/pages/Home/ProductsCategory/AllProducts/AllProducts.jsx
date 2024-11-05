@@ -2,12 +2,12 @@ import axios from "axios";
 import { useContext, useEffect } from "react";
 import { useState } from "react";
 import Product from "./Product";
-import { CategoryWiseShow } from "../../../../Context/ContextProvider";
+import { CategoryContext } from "../../../../Context/ContextProvider";
 import ErrorPage from "../../../../Errorpage/ErrorPage";
 
 const AllProducts = () => {
     const [allProducts ,setAllProducts] = useState([])
-    const { filterByName, ifAllCategory } = useContext(CategoryWiseShow)
+    const { filterByName, ifAllCategory } = useContext(CategoryContext)
     // console.log(filterByName,ifAllCategory)
     useEffect(()=>{
         axios.get('data.json')
@@ -17,7 +17,7 @@ const AllProducts = () => {
             if(ifAllCategory){
                 setAllProducts(data.data)
             }
-            else{
+            else{ 
                 setAllProducts(filterData)
             }
             })

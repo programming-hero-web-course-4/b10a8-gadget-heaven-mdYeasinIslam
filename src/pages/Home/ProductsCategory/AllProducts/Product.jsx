@@ -23,7 +23,7 @@ const Product = ({product}) => {
               
             </div>
                 <div className="">
-                    <Link onClick={()=>setShowNav(false)} to={`/product-details/${id}`}  className="btn btn-sm  outline outline-1 outline-[#9538E2] text-[#9538E2]">View Details</Link>
+                    <Link onClick={()=>setShowNav(false)} to={`/products/${id}`}  className="btn btn-sm  outline outline-1 outline-[#9538E2] text-[#9538E2]">View Details</Link>
                 </div>
         </div>
     );

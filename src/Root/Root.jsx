@@ -5,6 +5,7 @@ import Statistics from "../pages/Statistics/Statistics";
 import DashBoard from "../pages/Dashboard/DashBoard";
 import ErrorPage from "../Errorpage/ErrorPage";
 import ProductDetails from "../pages/Home/ProductsCategory/AllProducts/ProductDetails";
+import ProductSection from "../pages/Home/ProductsCategory/ProductSection/ProductSection";
 
 const Root = () => {
     const routes = createBrowserRouter([
@@ -23,9 +24,15 @@ const Root = () => {
                     element:<Home/>,
                     
                 },
+                {
+                     path:'products',
+
+                    element:<ProductSection/>,
+                    
+                },
                 
                  {
-                     path:`/product-details/:id`,
+                     path:`/products/:id`,
 
                     element:<ProductDetails/>,
                     

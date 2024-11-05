@@ -12,7 +12,7 @@ const Banner = () => {
         <p className="w-[95%] md:w-[58%] mx-auto">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
     </div>
     return (
-        <div className="bg-[#9538E2] h-[28rem] md:h-[36rem] lg:h-[40rem] relative  text-center pt-16 text-white space-y-7 lg:px-2">
+        <div className="bg-[#9538E2] rounded-b-xl h-[28rem] md:h-[36rem] lg:h-[40rem] relative  text-center pt-16 text-white space-y-7 lg:px-2">
            
 
             <CommonHeading headTag={headTag}/>
