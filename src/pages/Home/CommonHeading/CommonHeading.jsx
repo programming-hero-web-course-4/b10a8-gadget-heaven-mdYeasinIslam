@@ -4,7 +4,7 @@ const CommonHeading = ({headTag,byText}) => {
         <div>
             {headTag&& headTag}
             {
-                byText && <h2 className="text-3xl font-semibold text-center">{byText}</h2>
+                byText && byText
                
             }
             {/* <h1 className="text-2xl md:text-4xl  lg:text-6xl font-semibold">{heading}</h1>

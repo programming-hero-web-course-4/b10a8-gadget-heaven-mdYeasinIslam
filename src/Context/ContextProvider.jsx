@@ -9,7 +9,7 @@ const ContextProvider = ({children}) => {
 
     const getCategoryName =(name)=>{
         if (name ==="All Products"){ 
-            setIfAllCategory(true)
+            setIfAllCategory(true) 
         }
         else{
             setIfAllCategory(false)

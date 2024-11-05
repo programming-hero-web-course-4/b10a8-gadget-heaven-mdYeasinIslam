@@ -14,7 +14,7 @@
             "5000mAh battery"
         ],
         "availability": true,
-        "rating": 4.2
+        "rating": 3.2
     },
     {
         "id": "2",
@@ -65,7 +65,7 @@
             "4500mAh battery with fast charging"
         ],
         "availability": true,
-        "rating": 4.3
+        "rating": 3.3
     },
     {
         "id": "5",
@@ -192,7 +192,7 @@
         "product_title": "iPhone 13 Mini",
         "product_image": "https://i.ibb.co.com/gyLGkgQ/iphone-card-40-iphone16prohero-202409-FMT-WHH-wid-508-hei-472-fmt-p-jpg-qlt-95.jpg",
         "category": "iPhone",
-        "price": 699.99,
+        "price": 680.99,
         "description": "Compact iPhone model with powerful features in a smaller form factor.",
         "Specification": [
             "5.4-inch Super Retina display",
@@ -226,7 +226,7 @@
         "product_title": "Wireless Earbuds",
         "product_image": "https://i.ibb.co.com/74K9Jvk/Noise-Buds-R1-Truly-Wireless-Earbuds-1.png",
         "category": "Accessories",
-        "price": 49.99,
+        "price": 100.99,
         "description": "True wireless earbuds with high-quality sound and noise cancellation.",
         "Specification": [
             "Bluetooth 5.2",
@@ -243,7 +243,7 @@
         "product_title": "Portable Charger 20000mAh",
         "product_image": "https://i.ibb.co.com/5GCvQ6D/images-q-tbn-ANd9-Gc-TKAFS5-BGXSUesj-RNme8z-EBc-WP1009ecvs-OLw-s.jpg",
         "category": "Accessories",
-        "price": 29.99,
+        "price": 110.99,
         "description": "High-capacity portable charger with multiple ports for fast charging.",
         "Specification": [
             "20000mAh capacity",
@@ -252,7 +252,7 @@
             "LED battery indicator"
         ],
         "availability": true,
-        "rating": 4.6
+        "rating": 3.6
     },
     {
         "id": "16",
@@ -260,7 +260,7 @@
         "product_title": "Wireless Charger Pad",
         "product_image": "https://i.ibb.co.com/zQxwgLY/images-q-tbn-ANd9-Gc-T1-Ej-Ob-G-s-YWbwbx-GBj-WV0-Dh-KHFRH2-Oi-DY8-Uw-s.jpg",
         "category": "Accessories",
-        "price": 19.99,
+        "price": 160.99,
         "description": "Qi-certified wireless charger compatible with most smartphones.",
         "Specification": [
             "Fast wireless charging",
@@ -277,7 +277,7 @@
         "product_title": "Bluetooth Keyboard",
         "product_image": "https://i.ibb.co.com/ncc86FY/Logitech-K480-Bluetooth-Multidevice-Keyboard-0a650ffff9c34105a4206384507c7ba6.jpg",
         "category": "Accessories",
-        "price": 34.99,
+        "price": 134.99,
         "description": "Compact and lightweight Bluetooth keyboard for tablets and laptops.",
         "Specification": [
             "Bluetooth 5.0",
@@ -286,6 +286,6 @@
             "Compatible with multiple devices"
         ],
         "availability": true,
-        "rating": 4.2
+        "rating": 3.2
     }
 ]

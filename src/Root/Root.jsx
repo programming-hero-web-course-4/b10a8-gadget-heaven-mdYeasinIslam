@@ -25,7 +25,7 @@ const Root = () => {
                 },
                 
                  {
-                    path:`home/:id`,
+                     path:`/product-details/:id`,
 
                     element:<ProductDetails/>,
                     
