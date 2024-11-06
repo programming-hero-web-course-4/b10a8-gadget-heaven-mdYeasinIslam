@@ -18,7 +18,7 @@ const CategoryName = () => {
         getCategoryName(name)
     }
     return (
-        <div className="lg:space-y-3 w-full grid grid-cols-4  lg:flex lg:flex-col gap-2 px-3 lg:px-0">
+        <div className="lg:space-y-3 w-full grid grid-cols-3  lg:flex lg:flex-col gap-2 px-3 lg:px-0">
             {
                 categories.map(name => <button
                     onClick={() => giveActiveStyle(name.id,name.category_name)}
