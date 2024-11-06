@@ -1,16 +1,12 @@
-import { useContext } from "react";
 import { FaThumbsUp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom/dist";
-import { NavbarContext } from "../../../Context/ContextProvider";
 
 const PurchaseModal = ({ cartProducts, setCartProducts }) => {
-    const { setShowNav } = useContext(NavbarContext)
 
     const totalPrice = cartProducts.reduce((total, current) => total + current.price, 0)
     const navigate = useNavigate()
     const changeRoute = () => {
         navigate('/home')
-        setShowNav(true)
         setCartProducts([...[]])
     }
     return (

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import CommonHeading from "../../CommonHeading/CommonHeading";
 import AllProducts from "../AllProducts/AllProducts";
 import CategoryName from "../CatagoryName/CategoryName";
@@ -8,6 +9,10 @@ const ProductSection = () => {
     </div>
     return (
         <div className="max-w-6xl mx-auto mt-5">
+            <Helmet>
+                <title>All Gadget | Gadget Heaven
+                </title>
+            </Helmet>
             <CommonHeading byText={byText} />
             <div className="md:grid grid-cols-4 mt-16">
                 <div className="col-span-1 ">

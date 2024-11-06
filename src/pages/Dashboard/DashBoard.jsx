@@ -8,6 +8,7 @@ import WishLists from "./WishList/WishLists";
 import { SelectedProductContext, WishListProductContext } from "../../Context/ContextProvider";
 import PurchaseModal from "./PurchaseModal/PurchaseModal";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet";
 
 const DashBoard = () => {
     const { cartProducts, setCartProducts } = useContext(SelectedProductContext)
@@ -46,7 +47,9 @@ console.log(calculateTotal)
     const byText = <p className="text-center w-[60%] mx-auto">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
     return (
         <div>
-
+            <Helmet>
+                <title>Dashboard | Gadget Heaven</title>
+            </Helmet>
             <div className="bg-[#9538E2] h-full text-white py-12 space-y-5">
                 <CommonHeading headTag={headTag} byText={byText} />
                 <div className=" flex justify-center gap-5">

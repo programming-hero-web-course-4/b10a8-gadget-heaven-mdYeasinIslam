@@ -1,17 +1,12 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../pages/Navbar/Navbar";
 import Footer from "../pages/Footer/Footer";
-import { useContext } from "react";
-import { NavbarContext } from "../Context/ContextProvider";
+
 
 const Main = () => { 
-    const {showNav} = useContext(NavbarContext)
     return (
         <div>
-            <div className={ ` ${showNav?'mt-3 md:text-white':''}  `}>
-
-            <Navbar/>
-            </div>
+            <Navbar />
             <Outlet/>
             <Footer/>
         </div>

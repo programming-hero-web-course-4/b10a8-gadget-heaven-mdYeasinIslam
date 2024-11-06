@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
 
   return (
-    <div className='font-["sora",serif]'>
+    <div className='font-["sora",serif] mt-3'>
       <Root />
       <ToastContainer position="top-right" />
     </div>

@@ -1,24 +1,22 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
 import './Navbar.css'
 import { useContext } from "react";
-import { NavbarContext, SelectedProductContext } from "../../Context/ContextProvider";
+import {  SelectedProductContext } from "../../Context/ContextProvider";
 const Navbar = () => {
-    const { setShowNav } = useContext(NavbarContext)
-    const { cartProducts } = useContext(SelectedProductContext)
-    const handleNavColor = () => {
-        setShowNav(false) 
-    }
-    // console.log(cartProducts.length)
+    const { cartProducts, wishProducts } = useContext(SelectedProductContext)
+    const location = useLocation()
+    console.log(location.pathname)
+ 
     const manuIcons = <>
-        <NavLink onClick={() => setShowNav(true)} to={`/home`}>Home</NavLink>
-        <NavLink onClick={handleNavColor} to={`products`}>All Gadget</NavLink>
-        <NavLink onClick={handleNavColor} to={`/statistics`}>Statistics</NavLink>
-        <NavLink onClick={handleNavColor} to={`/dashboard`}>Dashboard</NavLink>
+        <NavLink to={`/home`}>Home</NavLink>
+        <NavLink to={`products`}>All Gadget</NavLink>
+        <NavLink to={`/statistics`}>Statistics</NavLink>
+        <NavLink to={`/dashboard`}>Dashboard</NavLink>
     </>
     return (
-        <div className="navbar max-w-7xl bg-[#9538E2] mx-auto pt-5 pb-3 rounded-t-xl">
+        <div className={`navbar max-w-7xl  mx-auto pt-5 pb-3 rounded-t-xl ${location.pathname == '/home'&& 'bg-[#9538E2] text-white'}`}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -52,8 +50,10 @@ const Navbar = () => {
                 <div className="tooltip tooltip-open tooltip-top tooltip-primary " data-tip={cartProducts.length}>
                     <MdOutlineShoppingCart className="w-6 h-6" />
                 </div>
+                <div className="tooltip tooltip-open tooltip-top tooltip-primary " data-tip={wishProducts.length}>
+                    <FaRegHeart className="w-5 h-5" />
+                </div>
 
-                <FaRegHeart className="w-5 h-5" />
             </div> 
         </div>
     );

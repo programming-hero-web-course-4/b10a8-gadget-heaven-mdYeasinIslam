@@ -1,7 +1,12 @@
+import { Helmet } from "react-helmet";
 
 const Statistics = () => {
     return (
-        <div>Statistics
+        <div>
+            <Helmet>
+                <title>Statistics | Gadget Heaven</title>
+            </Helmet>
+            Statistics
             
         </div>
     );

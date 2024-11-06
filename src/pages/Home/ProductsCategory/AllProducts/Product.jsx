@@ -1,11 +1,7 @@
-import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { NavbarContext } from "../../../../Context/ContextProvider";
 
-// { id, product_id, category, , description, Specification, availability, rating }
-const Product = ({product}) => {
+const Product = ({ product }) => {
     const { id, product_title, product_image, price, rating } = product
-    const { setShowNav } = useContext(NavbarContext)
 
     return (
         <div className=" bg-base-100  shadow-xl h-full flex flex-col justify-center p-2">
@@ -23,7 +19,7 @@ const Product = ({product}) => {
               
             </div>
                 <div className="">
-                    <Link onClick={()=>setShowNav(false)} to={`/products/${id}`}  className="btn btn-sm  outline outline-1 outline-[#9538E2] text-[#9538E2]">View Details</Link>
+                    <Link to={`/products/${id}`}  className="btn btn-sm  outline outline-1 outline-[#9538E2] text-[#9538E2]">View Details</Link>
                 </div>
         </div>
     );
