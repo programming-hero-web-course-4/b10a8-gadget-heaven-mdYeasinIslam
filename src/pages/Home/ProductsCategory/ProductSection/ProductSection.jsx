@@ -8,21 +8,21 @@ const ProductSection = () => {
         Explore Cutting-Edge Gadgets
     </div>
     return (
-        <div className="max-w-6xl mx-auto mt-5">
+       <div className="max-w-6xl mx-auto mt-5">
             <Helmet>
                 <title>All Gadget | Gadget Heaven
                 </title>
             </Helmet>
-            <CommonHeading byText={byText} />
-            <div className="md:grid grid-cols-4 mt-16">
-                <div className="col-span-1 ">
-                    <CategoryName />
-                </div>
-                <div className="col-span-3">
-                    <AllProducts />
+                <CommonHeading byText={byText} />
+                <div className="lg:grid lg:grid-cols-4 mt-16">
+                    <div className=" lg:col-span-1 ">
+                        <CategoryName/>
+                    </div>
+                    <div className="lg:col-span-3">
+                        <AllProducts/>
+                    </div>
                 </div>
             </div>
-        </div>
     );
 };
 

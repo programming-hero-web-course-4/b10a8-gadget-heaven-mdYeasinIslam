@@ -46,17 +46,17 @@ const ProductDetails = () => {
         toast('WOW! product is added to the Wish List')
     }
     return (
-        <div className="relative h-[45rem]">
-            <div className="h-[18rem]">
+        <div className="relative h-full lg:h-[45rem]">
+            <div className=" h-[18rem]">
 
             <CommonBanner/>
             </div>
-            <div className="hero absolute top-[25%] left-[10%] bg-gray-100 border-2 max-w-5xl mx-auto p-5 rounded-xl">
+            <div className="lg:hero lg:absolute top-[25%] left-[10%] bg-gray-100 border-2 max-w-5xl mx-auto p-5 rounded-xl">
                     <div className="md:grid grid-cols-3 gap-5 bg-base-200 ">
                         <img 
                             src={product_image}
-                            className=" h-full rounded-lg shadow-2xl" />
-                        <div className="w-full col-span-2 space-y-3">
+                            className="w-full lg:h-full rounded-lg shadow-2xl" />
+                        <div className="w-full md:col-span-2 md:space-y-3 mt-10 md:mt-0">
                             <h1 className="text-2xl font-bold">{product_title}</h1>
                             <p className="font-medium">
                                price: $ {price}

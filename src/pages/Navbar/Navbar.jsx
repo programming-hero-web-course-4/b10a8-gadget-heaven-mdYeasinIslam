@@ -16,10 +16,10 @@ const Navbar = () => {
         <NavLink to={`/dashboard`}>Dashboard</NavLink>
     </>
     return (
-        <div className={`navbar max-w-7xl  mx-auto pt-5 pb-3 rounded-t-xl ${location.pathname == '/home'&& 'bg-[#9538E2] text-white'}`}>
+        <div className={`navbar max-w-7xl  mx-auto pt-5 pb-3 rounded-t-md ${location.pathname == '/home' | location.pathname =='/' ? 'bg-[#9538E2] text-white':"null"}`}>
             <div className="navbar-start">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -35,13 +35,13 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="manuIcon menu menu-sm dropdown-content bg-base-100  space-y-5 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="manuIcon menu menu-sm dropdown-content bg-base-100  space-y-5 text-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         {manuIcons}
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl ">Gadget Heaven</a>
             </div>
-            <div className="navbar-center hidden md:flex">
+            <div className="navbar-center hidden lg:flex">
                 <ul className="manuIcon menu menu-horizontal px-1 gap-5  lg:gap-10 font-medium text-[1rem]">
                     {manuIcons}
                 </ul>

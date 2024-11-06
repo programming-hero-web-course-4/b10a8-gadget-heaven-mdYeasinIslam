@@ -8,9 +8,9 @@ const Footer = () => {
         Leading the way in cutting-edge technology and innovation.
     </p>
     return (
-        <footer className=" bg-base-200 text-black border-2 mt-5 p-10">
+        <footer className=" bg-base-200 text-black border-2 pt-5 mt-5 lg:p-10 ">
             <CommonHeading headTag={headTag} byText={byText}/>
-            <div className="footer justify-around pt-5">
+            <div className="footer justify-center lg:justify-around pt-5">
 
             <nav >
                 <h6 className="footer-title text-xl ">Services</h6>

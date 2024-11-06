@@ -19,11 +19,11 @@ const Home = () => {
             </div>
             <div className="max-w-6xl mx-auto mt-5">
                 <CommonHeading byText={byText} />
-                <div className="md:grid grid-cols-4 mt-16">
-                    <div className="col-span-1 ">
+                <div className="lg:grid lg:grid-cols-4 mt-16">
+                    <div className=" lg:col-span-1 ">
                         <CategoryName/>
                     </div>
-                    <div className="col-span-3">
+                    <div className="lg:col-span-2">
                         <AllProducts/>
                     </div>
                 </div>

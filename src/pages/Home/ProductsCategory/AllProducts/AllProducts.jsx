@@ -6,9 +6,9 @@ import { CategoryContext } from "../../../../Context/ContextProvider";
 import ErrorPage from "../../../../Errorpage/ErrorPage";
 
 const AllProducts = () => {
-    const [allProducts ,setAllProducts] = useState([])
     const { filterByName, ifAllCategory } = useContext(CategoryContext)
     // console.log(filterByName,ifAllCategory)
+    const [allProducts ,setAllProducts] = useState([])
     useEffect(()=>{
         axios.get('data.json')
         .then(data =>{
@@ -24,7 +24,7 @@ const AllProducts = () => {
     },[filterByName,ifAllCategory])
     // console.log(allProducts)
     return (
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           
            {allProducts.length ?
             allProducts?.map((product,index)=><Product key={index} product={product}/>)
