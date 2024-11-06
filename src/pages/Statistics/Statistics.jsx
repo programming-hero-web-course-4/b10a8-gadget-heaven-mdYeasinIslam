@@ -10,6 +10,7 @@ import {
     Tooltip,
     Legend
 } from "recharts";
+import CommonHeading from "../Home/CommonHeading/CommonHeading";
 
 
 export default function Statistics() {
@@ -23,7 +24,16 @@ export default function Statistics() {
               
             })
     }, [])
+    const headTag = <h1 className="text-center text-3xl font-semibold mb-3">Statistics</h1>
+    const byText = <p className="px-3 lg:px-0 md:text-center lg:w-[60%] mx-auto">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
     return (
+        <div>
+            <div className="bg-[#9538E2] h-full text-white py-12 space-y-5 mb-10">
+                <CommonHeading headTag={headTag} byText={byText} />
+                <div className=" flex justify-center gap-5">
+
+                </div>
+            </div>
         <BarChart
             width={1000}
             height={300}
@@ -46,6 +56,7 @@ export default function Statistics() {
             <CartesianGrid strokeDasharray="3 3" />
             <Bar dataKey="price" fill="#8884d8" background={{ fill: "#eee" }} />
         </BarChart>
+        </div>
     );
 }
 

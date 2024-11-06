@@ -1,0 +1,148 @@
+[
+    {
+        "id": 1,
+        "name": "Microsoft Surface Neo",
+        "category": "Dual-Screen Tablet",
+        "brand": "Microsoft",
+        "releaseDate": "2025-02-01",
+        "features": {
+            "display": "9-inch dual PixelSense screens",
+            "processor": "Intel Core Ultra",
+            "batteryLife": "12 hours",
+            "connectivity": [
+                "5G",
+                "Wi-Fi 6E",
+                "Bluetooth 5.2"
+            ],
+            "specialFeatures": [
+                "Multi-mode Design",
+                "Stylus Support",
+                "Adaptive Keyboard"
+            ]
+        },
+        "price": 1799,
+        "availability": "Expected soon",
+        "imageUrl": "https://i.ibb.co.com/x3qPJGs/Surface-Pro-9-in-Sapphire-colour.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy Fold Pro",
+        "category": "Foldable Smartphone",
+        "brand": "Samsung",
+        "releaseDate": "2024-12-20",
+        "features": {
+            "display": "7.6-inch Dynamic AMOLED 2X",
+            "processor": "Snapdragon Gen 3",
+            "batteryLife": "10 hours",
+            "connectivity": [
+                "5G",
+                "Wi-Fi 7",
+                "Bluetooth 5.3"
+            ],
+            "specialFeatures": [
+                "Adaptive Refresh Rate",
+                "Under-Display Camera"
+            ]
+        },
+        "price": 2499,
+        "availability": "Expected soon",
+        "imageUrl": "https://i.ibb.co.com/hfk6j0G/Color-Selection-Silver-MO.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Tesla Cyberwatch",
+        "category": "Smartwatch",
+        "brand": "Tesla",
+        "releaseDate": "2024-11-25",
+        "features": {
+            "display": "AMOLED 1.9-inch",
+            "processor": "Tesla Silicon X1",
+            "batteryLife": "15 days",
+            "connectivity": [
+                "LTE",
+                "Wi-Fi 6",
+                "Bluetooth 5.2"
+            ],
+            "specialFeatures": [
+                "Solar Charging",
+                "ECG Monitoring",
+                "Blood Oxygen Sensor"
+            ]
+        },
+        "price": 499,
+        "availability": "Available for pre-order",
+        "imageUrl": "https://i.ibb.co.com/TRYy4ng/51e477gkkq-L-AC-UY350.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Google Glass NextGen",
+        "category": "Smart Glasses",
+        "brand": "Google",
+        "releaseDate": "2025-06-30",
+        "features": {
+            "display": "Full-color Heads-up Display",
+            "processor": "Google Tensor 3",
+            "batteryLife": "12 hours",
+            "connectivity": [
+                "5G",
+                "Wi-Fi 6E",
+                "Bluetooth 5.3"
+            ],
+            "specialFeatures": [
+                "Voice Commands",
+                "Gesture Recognition",
+                "Facial Recognition"
+            ]
+        },
+        "price": 1599,
+        "availability": "Coming soon",
+        "imageUrl": "https://i.ibb.co.com/g6w03fx/1689395620224-e-2147483647-v-beta-t-QUo-Gbn-Jlk-ZVd3-Mybd-ZO7-Hsh0uw4-ELSr2-W7r-Mbm-WDESg.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sony Air Pulse",
+        "category": "Wireless Earbuds",
+        "brand": "Sony",
+        "releaseDate": "2024-11-15",
+        "features": {
+            "audioQuality": "Hi-Res Audio",
+            "noiseCancellation": "Adaptive ANC",
+            "batteryLife": "36 hours with case",
+            "connectivity": [
+                "Bluetooth 5.3",
+                "Multipoint"
+            ],
+            "specialFeatures": [
+                "3D Spatial Audio",
+                "Customizable Sound Profiles"
+            ]
+        },
+        "price": 299,
+        "availability": "Available for pre-order",
+        "imageUrl": "https://i.ibb.co.com/2yqBD8R/budapest-hungary-december-18-2022-260nw-2239289711.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Apple Vision Pro 2",
+        "category": "Augmented Reality Headset",
+        "brand": "Apple",
+        "releaseDate": "2025-03-15",
+        "features": {
+            "display": "Micro-OLED 8K",
+            "processor": "Apple M3 chip",
+            "batteryLife": "8 hours",
+            "connectivity": [
+                "Wi-Fi 6E",
+                "Bluetooth 5.2"
+            ],
+            "specialFeatures": [
+                "Eye Tracking",
+                "Spatial Audio",
+                "Gesture Control"
+            ]
+        },
+        "price": 3499,
+        "availability": "Pre-order available",
+        "imageUrl": "https://i.ibb.co.com/6cQxwYB/valencia-spain-june-2023-apple-260nw-2316789227.jpg"
+    }
+]

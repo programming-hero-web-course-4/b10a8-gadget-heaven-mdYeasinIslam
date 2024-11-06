@@ -6,6 +6,7 @@ import DashBoard from "../pages/Dashboard/DashBoard";
 import ErrorPage from "../Errorpage/ErrorPage";
 import ProductDetails from "../pages/Home/ProductsCategory/AllProducts/ProductDetails";
 import ProductSection from "../pages/Home/ProductsCategory/ProductSection/ProductSection";
+import UpcomingGadget from "../pages/UpcomingGadget/UpcomingGadget";
 
 const Root = () => {
     const routes = createBrowserRouter([
@@ -46,6 +47,10 @@ const Root = () => {
                     path:'/dashboard',
                     element:<DashBoard/>
                 },
+                {
+                    path:'/upcoming',
+                    element:<UpcomingGadget/>
+                }
                  
             ]
         }

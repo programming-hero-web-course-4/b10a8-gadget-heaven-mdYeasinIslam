@@ -14,6 +14,7 @@ const Navbar = () => {
         <NavLink to={`products`}>All Gadget</NavLink>
         <NavLink to={`/statistics`}>Statistics</NavLink>
         <NavLink to={`/dashboard`}>Dashboard</NavLink>
+        <NavLink to={`/upcoming`}>UpComing-Gadget</NavLink>
     </>
     return (
         <div className={`navbar max-w-7xl  mx-auto pt-5 pb-3 rounded-t-md ${location.pathname == '/home' | location.pathname =='/' ? 'bg-[#9538E2] text-white':"null"}`}>

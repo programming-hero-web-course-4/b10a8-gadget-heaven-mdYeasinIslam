@@ -1,0 +1,66 @@
+
+.number-slide1 {
+    background: url('https://i.ibb.co.com/x3qPJGs/Surface-Pro-9-in-Sapphire-colour.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+.number-slide2 {
+    background: url('https://i.ibb.co.com/hfk6j0G/Color-Selection-Silver-MO.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.number-slide3 {
+    background: url('https://i.ibb.co.com/TRYy4ng/51e477gkkq-L-AC-UY350.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.number-slide4 {
+    background: url('https://i.ibb.co.com/g6w03fx/1689395620224-e-2147483647-v-beta-t-QUo-Gbn-Jlk-ZVd3-Mybd-ZO7-Hsh0uw4-ELSr2-W7r-Mbm-WDESg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.number-slide5 {
+    background: url('https://i.ibb.co.com/2yqBD8R/budapest-hungary-december-18-2022-260nw-2239289711.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.number-slide6 {
+    background: url('https://i.ibb.co.com/6cQxwYB/valencia-spain-june-2023-apple-260nw-2316789227.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scene {
+    width: 260px;
+    height: 200px;
+    perspective: 1000px;
+    position: relative;
+}
+
+.scene .carousel.keen-slider {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: visible;
+    transform: translateZ(-288px);
+    transform-style: preserve-3d;
+}
+
+.carousel__cell {
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
